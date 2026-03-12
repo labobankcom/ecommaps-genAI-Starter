@@ -95,6 +95,8 @@ The folder structure is designed to be intuitive and highly scalable:
 
 ```text
 ecommaps-genAI-Starter/
+├── .agents/                    # AI Agent Skills references and routing rules
+├── AGENTS.md                   # Global entry point for AI Coding Assistants
 ├── src/
 │   ├── app/                    # Next.js App Router and main pages
 │   │   ├── (main)/             # Store pages (Home, Collections, Cart, Blog)
@@ -108,8 +110,22 @@ ecommaps-genAI-Starter/
 │   │   ├── layout/             # Header and Footer
 │   │   └── ui/                 # Core design system components (shadcn/ui style)
 │   └── lib/                    # Configuration and SDK clients initialization
-└── public/                     # Static assets (Images, Icons)
+├── public/                     # Static assets (Images, Icons)
 ```
+
+---
+
+## 🤖 AI Agent Skills (New!)
+
+This starter template includes built-in instructions for AI Coding Assistants (like Cursor, GitHub Copilot, or Claude Code) following the **Agent Skills Specification**.
+
+When you open this project in an AI-powered editor, the AI will automatically read the `AGENTS.md` and `.agents/skills/use-ecommaps/SKILL.md` router. This enables the AI to:
+- Instantly context-switch into Ecommaps development.
+- Write perfect SDK `fetch` calls and handle Ecommaps Product types.
+- Correctly apply Middle Eastern RTL logic (`ms-`, `me-`) with `shadcn/ui`.
+- Understand how to safely extend the `@ecommaps/ai-sales-agent` without hallucinating tools.
+
+*Just prompt your AI to "build a new section" or "add a feature" and watch it write Ecommaps-compliant code automatically!*
 
 ---
 

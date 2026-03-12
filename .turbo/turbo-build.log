@@ -1,0 +1,334 @@
+
+> ecommaps-genai-starter@0.1.1 build /Users/ecommaps/Documents/ecommaps/ecommaps-genAI-Starter
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/ecommaps/Documents/ecommaps/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/ecommaps/Documents/ecommaps/ecommaps-genAI-Starter/pnpm-lock.yaml
+
+▲ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 17.9s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/10) ...
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getCollections] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getCollections] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getBlogs] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+  Generating static pages using 7 workers (2/10) 
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getCollections] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getCollections] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getCollections] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+  Generating static pages using 7 workers (4/10) 
+  Generating static pages using 7 workers (7/10) 
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getCollections] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getProducts] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+[getStoreInfo] Error: [TypeError: fetch failed] {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:8001
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8001) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 8001
+  }
+}
+✓ Generating static pages using 7 workers (10/10) in 541.1ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├ ƒ /account
+├ ƒ /api/chat
+├ ƒ /blogs
+├ ƒ /blogs/[slug]
+├ ƒ /checkout
+├ ƒ /collections
+├ ƒ /collections/[slug]
+├ ○ /login
+├ ƒ /pages/[slug]
+├ ƒ /product/[handle]
+└ ○ /register
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
