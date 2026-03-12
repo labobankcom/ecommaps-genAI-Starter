@@ -1,9 +1,11 @@
-# 🚀 Ecommaps GenAI Starter
-
-Welcome to the **Ecommaps GenAI Starter**, the most advanced storefront template in the Ecommaps ecosystem. Designed as the perfect starting point for developers and merchants, this template is equipped with cutting-edge web and AI technologies to deliver an exceptional shopping experience. Built entirely on **Next.js 15 (App Router)**, it provides a clean, professional, and endlessly customizable development environment.
-
 <div align="center">
-  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
+  <img src="https://ecodata.ecommaps.com/storage/v1/object/public/ecommaps%20eco/EcommapsLogoForLiteMode.png" alt="Ecommaps Logo" width="250" style="margin-bottom: 20px" />
+
+  # 🚀 Ecommaps GenAI Starter
+
+  Welcome to the **Ecommaps GenAI Starter**, the most advanced storefront template in the Ecommaps ecosystem. Designed as the perfect starting point for developers and merchants, this template is equipped with cutting-edge web and AI technologies to deliver an exceptional shopping experience. Built entirely on **Next.js 16+ (App Router)**, it provides a clean, professional, and endlessly customizable development environment.
+
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-16+-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/TailwindCSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" /></a>
   <a href="https://sdk.vercel.ai/docs"><img src="https://img.shields.io/badge/v0.1.1-000000?style=for-the-badge&logo=openai&label=AI_SALES_AGENT" alt="AI SDK" /></a>
   <a href="https://docs.ecommaps.com"><img src="https://img.shields.io/badge/Ecommaps-SDK-000?style=for-the-badge&logo=ecommaps" alt="Ecommaps SDK" /></a>
@@ -13,10 +15,10 @@ Welcome to the **Ecommaps GenAI Starter**, the most advanced storefront template
 
 ## ✨ Key Features
 
-- **⚡ Blazing Fast Performance:** Built with **Next.js 15** and **React 19**, relying on Server Components and Server Actions for maximum performance with **TailwindCSS v4**.
-- **🧠 AI Sales Agent:** An interactive, conversational AI assistant integrated directly into the UI. It understands customer needs, recommends products, and modifies the cart in real-time, powered by the [`@ecommaps/ai-sales-agent`](https://www.npmjs.com/package/@ecommaps/ai-sales-agent) package.
+- **⚡ Blazing Fast Performance:** Built with **Next.js 16+** and **React 19**, relying on Server Components and Server Actions for maximum performance with **TailwindCSS v4**.
+- **🧠 AI Sales Agent:** An interactive, conversational AI assistant integrated directly into the UI. It understands customer needs, recommends products, and modifies the cart in real-time.
 - **🛍️ Localized for the Algerian Market:** Full Right-to-Left (RTL) Arabic support (as well as French/LTR), featuring a custom Cash on Delivery (COD) checkout flow that natively includes all Algerian Wilayas and Communes.
-- **📦 Seamless SDK Integration:** The template is fully powered by official Ecommaps packages ([`@ecommaps/client`](https://www.npmjs.com/package/@ecommaps/client) and [`@ecommaps/storefront-kit`](https://www.npmjs.com/package/@ecommaps/storefront-kit)) to manage store data without manual, unstructured `fetch` calls.
+- **📦 Seamless SDK Integration:** The template is fully powered by official Ecommaps packages to manage store data without manual, unstructured `fetch` calls.
 - **🎨 Premium UI (Glassmorphism):** Professional, ready-to-use UI components backed by sophisticated **Framer Motion** animations and a modern, glass-like aesthetic.
 
 ---
@@ -77,11 +79,13 @@ pnpm dev
 
 ## 📦 Official Ecommaps Packages
 
-This starter template is beautifully orchestrated using our official Open-Source packages:
+This starter template is beautifully orchestrated using our official Open-Source packages. Each package serves a specific role in our layered architecture:
 
-- **[`@ecommaps/client`](https://www.npmjs.com/package/@ecommaps/client)**: The core API SDK providing strictly-typed contracts for all storefront endpoints.
-- **[`@ecommaps/storefront-kit`](https://www.npmjs.com/package/@ecommaps/storefront-kit)**: Pure commerce logic utilities for variant resolution, cart normalization, and promotion status tracking.
-- **[`@ecommaps/ai-sales-agent`](https://www.npmjs.com/package/@ecommaps/ai-sales-agent)** ([GitHub Repo](https://github.com/labobankcom/ecommaps-ai-sales-agent)): The intelligent sales layer providing server agent runtime factories and interactive React chat UI components.
+| Component | Responsibility | NPM Package | GitHub Repository |
+| :--- | :--- | :--- | :--- |
+| **Core Client** | The core API SDK providing strictly-typed contracts for all storefront endpoints. | [@ecommaps/client](https://www.npmjs.com/package/@ecommaps/client) | [ecommaps-js-sdk](https://github.com/labobankcom/ecommaps-js-sdk) |
+| **Storefront Kit** | Pure commerce logic utilities for variant resolution, cart normalization, and promotion status tracking. | [@ecommaps/storefront-kit](https://www.npmjs.com/package/@ecommaps/storefront-kit) | [ecommaps-storefront-kit](https://github.com/labobankcom/ecommaps-storefront-kit) |
+| **AI Sales Agent** | The intelligent sales layer providing server agent runtime factories and interactive React chat UI components. | [@ecommaps/ai-sales-agent](https://www.npmjs.com/package/@ecommaps/ai-sales-agent) | [ecommaps-ai-sales-agent](https://github.com/labobankcom/ecommaps-ai-sales-agent) |
 
 ---
 
