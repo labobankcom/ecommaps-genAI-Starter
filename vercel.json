@@ -1,0 +1,5 @@
+{
+  "framework": "nextjs",
+  "installCommand": "pnpm install --frozen-lockfile --config.link-workspace-packages=false --config.prefer-workspace-packages=false",
+  "buildCommand": "pnpm build"
+}
